@@ -1,0 +1,38 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-05-11T12:00:00Z",
+  "topics": [
+    {
+      "id": "getting-started",
+      "order": 1,
+      "title": "Getting Started",
+      "questions": [
+        {
+          "id": "q1",
+          "order": 1,
+          "question": "How do I create an account?",
+          "answer": "To create an account, tap the Sign Up button and follow the steps..."
+        },
+        {
+          "id": "q2", 
+          "order": 2,
+          "question": "What are the system requirements?",
+          "answer": "The app requires iOS 15+ or Android 8+..."
+        }
+      ]
+    },
+    {
+      "id": "billing",
+      "order": 2,
+      "title": "Billing & Payments",
+      "questions": [
+        {
+          "id": "q3",
+          "order": 1,
+          "question": "What payment methods do you accept?",
+          "answer": "We accept all major credit cards, PayPal..."
+        }
+      ]
+    }
+  ]
+}
