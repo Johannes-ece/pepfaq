@@ -1,36 +1,130 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "lastUpdated": "2025-05-11T12:00:00Z",
+  "supportEmail": "support@pep.com",
   "topics": [
     {
       "id": "getting-started",
       "order": 1,
       "title": "Getting Started",
+      "icon": "star.circle.fill",
+      "color": "#007AFF",
       "questions": [
         {
-          "id": "q1",
+          "id": "create-account",
           "order": 1,
           "question": "How do I create an account?",
-          "answer": "To create an account, tap the Sign Up button and follow the steps..."
+          "answer": "To create an account:\n1. Download the app from App Store\n2. Tap 'Sign Up'\n3. Enter your email and create a password\n4. Verify your email\n5. Complete your profile",
+          "keywords": ["signup", "register", "new user"],
+          "relatedQuestions": ["reset-password", "verify-email"]
         },
         {
-          "id": "q2", 
+          "id": "system-requirements",
           "order": 2,
           "question": "What are the system requirements?",
-          "answer": "The app requires iOS 15+ or Android 8+..."
+          "answer": "PEP requires:\n• iOS 16.0 or later\n• iPhone 8 or newer\n• At least 100MB of storage\n• Active internet connection",
+          "keywords": ["requirements", "compatibility", "ios version"]
+        },
+        {
+          "id": "verify-email",
+          "order": 3,
+          "question": "How do I verify my email address?",
+          "answer": "After signing up, check your email for a verification link. Click the link to verify your account. If you don't see the email, check your spam folder or request a new verification email from the app.",
+          "keywords": ["verification", "email", "confirm"],
+          "relatedQuestions": ["create-account"]
         }
       ]
     },
     {
-      "id": "billing",
+      "id": "features",
       "order": 2,
-      "title": "Billing & Payments",
+      "title": "Features & Usage",
+      "icon": "sparkles",
+      "color": "#34C759",
       "questions": [
         {
-          "id": "q3",
+          "id": "main-features",
           "order": 1,
-          "question": "What payment methods do you accept?",
-          "answer": "We accept all major credit cards, PayPal..."
+          "question": "What are the main features of PEP?",
+          "answer": "PEP offers:\n• Real-time activity tracking\n• Goal setting and monitoring\n• Social challenges with friends\n• Detailed analytics and insights\n• Customizable reminders\n• Achievement badges",
+          "keywords": ["features", "functionality", "capabilities"]
+        },
+        {
+          "id": "sync-data",
+          "order": 2,
+          "question": "How do I sync my data across devices?",
+          "answer": "Your data automatically syncs when you're logged into the same account on multiple devices. Ensure you have an active internet connection and background app refresh is enabled.",
+          "keywords": ["sync", "multiple devices", "cloud"]
+        }
+      ]
+    },
+    {
+      "id": "subscription",
+      "order": 3,
+      "title": "Subscription & Billing",
+      "icon": "creditcard.fill",
+      "color": "#FF3B30",
+      "questions": [
+        {
+          "id": "subscription-plans",
+          "order": 1,
+          "question": "What subscription plans are available?",
+          "answer": "PEP offers:\n• Free Plan: Basic features with ads\n• PEP Plus ($4.99/month): Ad-free, advanced analytics\n• PEP Pro ($9.99/month): All features + coaching\n\nAll paid plans include a 7-day free trial.",
+          "keywords": ["pricing", "plans", "subscription", "cost"]
+        },
+        {
+          "id": "cancel-subscription",
+          "order": 2,
+          "question": "How do I cancel my subscription?",
+          "answer": "To cancel:\n1. Open Settings on your iPhone\n2. Tap your Apple ID\n3. Tap Subscriptions\n4. Select PEP\n5. Tap Cancel Subscription\n\nYou'll keep access until the end of your billing period.",
+          "keywords": ["cancel", "unsubscribe", "stop payment"]
+        }
+      ]
+    },
+    {
+      "id": "privacy-security",
+      "order": 4,
+      "title": "Privacy & Security",
+      "icon": "lock.shield.fill",
+      "color": "#5856D6",
+      "questions": [
+        {
+          "id": "data-privacy",
+          "order": 1,
+          "question": "How is my data protected?",
+          "answer": "We take privacy seriously:\n• All data is encrypted in transit and at rest\n• We never sell your personal information\n• You can export or delete your data anytime\n• We comply with GDPR and CCPA regulations",
+          "keywords": ["privacy", "data protection", "security", "GDPR"]
+        },
+        {
+          "id": "reset-password",
+          "order": 2,
+          "question": "How do I reset my password?",
+          "answer": "To reset your password:\n1. Tap 'Forgot Password' on the login screen\n2. Enter your email address\n3. Check your email for a reset link\n4. Create a new strong password",
+          "keywords": ["password", "reset", "forgot", "login"],
+          "relatedQuestions": ["create-account"]
+        }
+      ]
+    },
+    {
+      "id": "troubleshooting",
+      "order": 5,
+      "title": "Troubleshooting",
+      "icon": "wrench.and.screwdriver.fill",
+      "color": "#FF9500",
+      "questions": [
+        {
+          "id": "app-crashes",
+          "order": 1,
+          "question": "What do I do if the app keeps crashing?",
+          "answer": "Try these steps:\n1. Force quit and restart the app\n2. Check for app updates in the App Store\n3. Restart your iPhone\n4. Ensure you have enough storage space\n5. Reinstall the app if issues persist\n\nIf problems continue, contact support.",
+          "keywords": ["crash", "bug", "freeze", "not working"]
+        },
+        {
+          "id": "sync-issues",
+          "order": 2,
+          "question": "My data isn't syncing properly",
+          "answer": "To fix sync issues:\n1. Check your internet connection\n2. Sign out and sign back in\n3. Enable Background App Refresh\n4. Update to the latest app version\n5. Check if our servers are operational",
+          "keywords": ["sync", "data", "cloud", "not updating"]
         }
       ]
     }
