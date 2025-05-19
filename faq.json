@@ -1,6 +1,6 @@
 {
-  "version": "1.0.1",
-  "lastUpdated": "2025-05-19T12:00:00Z",
+  "version": "1.1.0",
+  "lastUpdated": "2025-05-19T14:32:00Z",
   "supportEmail": "j.grundherr@pm.me",
   "topics": [
     {
@@ -37,7 +37,7 @@
           "id": "weight-data-missing",
           "order": 2,
           "question": "Why is my weight data missing or not displaying?",
-          "answer": "If your weight chart appears empty, you may need to grant Peptide Log access to your Apple Health data. Follow these steps to enable access:\n\n1. **Open the Health app:** Locate and open the Health app on your iPhone.\n2. **Access your profile:** Tap your profile picture (upper right corner on iPhone) or \"Profile\" (upper left corner on iPad).\n3. **Navigate to Apps:** Under the Privacy section, tap \"Apps\".\n4. **Select the app:** Find and select \"Peptide Log\" from the list of apps.\n5. **Enable desired categories:** Turn on access for weight data and any other health data categories you want the app to use.\n6. **Check for other app permissions:** Some features may also require additional permissions, which can be managed in the Settings app under Privacy & Security.",
+          "answer": "If your weight chart appears empty, you may need to grant Peptide Log access to your Apple Health data. Follow these steps to enable access:\n\n1. Open the Health app: Locate and open the Health app on your iPhone.\n2. Access your profile: Tap your profile picture (upper right corner on iPhone) or \"Profile\" (upper left corner on iPad).\n3. Navigate to Apps: Under the Privacy section, tap \"Apps\".\n4. Select the app: Find and select \"Peptide Log\" from the list of apps.\n5. Enable desired categories: Turn on access for weight data and any other health data categories you want the app to use.\n6. Check for other app permissions: Some features may also require additional permissions, which can be managed in the Settings app under Privacy & Security.",
           "keywords": ["weight", "data", "missing", "empty chart", "apple health", "permissions"]
         },
         {
@@ -67,7 +67,7 @@
           "id": "cancel-subscription",
           "order": 2,
           "question": "How can I cancel my subscription?",
-          "answer": "To cancel your subscription, follow these steps:\n\n1. **Open the Settings app:** Locate and open the Settings app on your iPhone or iPad.\n2. **Tap your name:** At the top of the Settings app, tap your Apple ID or name.\n3. **Select Subscriptions:** Scroll down and tap on \"Subscriptions\".\n4. **Find the subscription:** Locate Peptide Log in your list of active subscriptions.\n5. **Tap the subscription:** Tap on Peptide Log subscription.\n6. **Cancel Subscription:** Tap \"Cancel Subscription\" at the bottom of the screen.\n7. **Confirm cancellation:** Tap \"Confirm\" to finalize the cancellation.\n\nYou will continue to have access to premium features until the end of your current billing period.",
+          "answer": "To cancel your subscription, follow these steps:\n\n1. Open the Settings app: Locate and open the Settings app on your iPhone or iPad.\n2. Tap your name: At the top of the Settings app, tap your Apple ID or name.\n3. Select Subscriptions: Scroll down and tap on \"Subscriptions\".\n4. Find the subscription: Locate Peptide Log in your list of active subscriptions.\n5. Tap the subscription: Tap on Peptide Log subscription.\n6. Cancel Subscription: Tap \"Cancel Subscription\" at the bottom of the screen.\n7. Confirm cancellation: Tap \"Confirm\" to finalize the cancellation.\n\nYou will continue to have access to premium features until the end of your current billing period.",
           "keywords": ["cancel", "subscription", "stop payments", "unsubscribe", "refund"]
         }
       ]
@@ -96,11 +96,11 @@
       "color": "#FF9500",
       "questions": [
         {
-          "id": "placeholder-troubleshooting",
+          "id": "plan-not-working",
           "order": 1,
-          "question": "Placeholder question for Troubleshooting",
-          "answer": "This is a placeholder answer for the Troubleshooting section.",
-          "keywords": ["placeholder", "troubleshooting"]
+          "question": "Why is my plan not working correctly?",
+          "answer": "Sometimes during app updates, active plans may experience issues. While we try to avoid this as much as possible, it can occasionally happen. If your plan is not functioning correctly, you'll need to:\n\n1. Go to the Plans section in the app\n2. Find the problematic plan and mark it as inactive\n3. Create a new plan with your desired settings\n\nThis will resolve most plan-related issues. If problems persist after creating a new plan, please contact support.",
+          "keywords": ["plan", "not working", "broken", "update", "inactive", "recreate"]
         }
       ]
     },
