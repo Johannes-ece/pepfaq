@@ -1,7 +1,7 @@
 {
   "version": "1.0.1",
-  "lastUpdated": "2025-05-11T12:00:00Z",
-  "supportEmail": "support@pep.com",
+  "lastUpdated": "2025-05-19T12:00:00Z",
+  "supportEmail": "j.grundherr@pm.me",
   "topics": [
     {
       "id": "getting-started",
@@ -11,27 +11,11 @@
       "color": "#007AFF",
       "questions": [
         {
-          "id": "create-account",
+          "id": "previous-injections",
           "order": 1,
-          "question": "How do I create an account?",
-          "answer": "To create an account:\n1. Download the app from App Store\n2. Tap 'Sign Up'\n3. Enter your email and create a password\n4. Verify your email\n5. Complete your profile",
-          "keywords": ["signup", "register", "new user"],
-          "relatedQuestions": ["reset-password", "verify-email"]
-        },
-        {
-          "id": "system-requirements",
-          "order": 2,
-          "question": "What are the system requirements?",
-          "answer": "PEP requires:\n• iOS 16.0 or later\n• iPhone 8 or newer\n• At least 100MB of storage\n• Active internet connection",
-          "keywords": ["requirements", "compatibility", "ios version"]
-        },
-        {
-          "id": "verify-email",
-          "order": 3,
-          "question": "How do I verify my email address?",
-          "answer": "After signing up, check your email for a verification link. Click the link to verify your account. If you don't see the email, check your spam folder or request a new verification email from the app.",
-          "keywords": ["verification", "email", "confirm"],
-          "relatedQuestions": ["create-account"]
+          "question": "How do I add my previous injections history?",
+          "answer": "To add your previous injection history, we recommend using the CSV import feature available in the Settings menu. This is the most efficient way to import historical data.\n\nIf you don't have a CSV file of your previous records, you can also:\n1. Temporarily disable the inventory tracking feature\n2. Use the 'Log Now' button on the dashboard to manually add past injections\n3. Re-enable inventory tracking once you've completed logging your history",
+          "keywords": ["previous injections", "history", "import", "csv", "log", "inventory"]
         }
       ]
     },
@@ -43,18 +27,25 @@
       "color": "#34C759",
       "questions": [
         {
-          "id": "main-features",
+          "id": "peptide-blending",
           "order": 1,
-          "question": "What are the main features of PEP?",
-          "answer": "PEP offers:\n• Real-time activity tracking\n• Goal setting and monitoring\n• Social challenges with friends\n• Detailed analytics and insights\n• Customizable reminders\n• Achievement badges",
-          "keywords": ["features", "functionality", "capabilities"]
+          "question": "Does the app support peptide blending?",
+          "answer": "Currently, peptide blending is not available in the app. However, this feature is actively under development and will be included in a future update. Our team is working to implement this functionality in a way that ensures accuracy and ease of use.",
+          "keywords": ["blending", "peptide blends", "mix", "combination", "future features"]
         },
         {
-          "id": "sync-data",
+          "id": "weight-data-missing",
           "order": 2,
-          "question": "How do I sync my data across devices?",
-          "answer": "Your data automatically syncs when you're logged into the same account on multiple devices. Ensure you have an active internet connection and background app refresh is enabled.",
-          "keywords": ["sync", "multiple devices", "cloud"]
+          "question": "Why is my weight data missing or not displaying?",
+          "answer": "If your weight chart appears empty, you may need to grant Peptide Log access to your Apple Health data. Follow these steps to enable access:\n\n1. **Open the Health app:** Locate and open the Health app on your iPhone.\n2. **Access your profile:** Tap your profile picture (upper right corner on iPhone) or \"Profile\" (upper left corner on iPad).\n3. **Navigate to Apps:** Under the Privacy section, tap \"Apps\".\n4. **Select the app:** Find and select \"Peptide Log\" from the list of apps.\n5. **Enable desired categories:** Turn on access for weight data and any other health data categories you want the app to use.\n6. **Check for other app permissions:** Some features may also require additional permissions, which can be managed in the Settings app under Privacy & Security.",
+          "keywords": ["weight", "data", "missing", "empty chart", "apple health", "permissions"]
+        },
+        {
+          "id": "weight-data-incorrect",
+          "order": 3,
+          "question": "Why is my weight data incorrect or showing extreme values?",
+          "answer": "If your weight data shows implausible values (either too high or too low), the issue likely stems from incorrect entries in Apple Health. To resolve this:\n\n1. Open the Apple Health app\n2. Navigate to the Browse tab and select Weight\n3. Review your weight history for any obvious errors\n4. Remove or correct any inaccurate entries\n\nOnce corrected in Apple Health, the accurate data should synchronize with Peptide Log.",
+          "keywords": ["weight", "incorrect", "wrong", "inaccurate", "extreme values", "apple health"]
         }
       ]
     },
@@ -66,18 +57,18 @@
       "color": "#FF3B30",
       "questions": [
         {
-          "id": "subscription-plans",
+          "id": "lifetime-purchase",
           "order": 1,
-          "question": "What subscription plans are available?",
-          "answer": "PEP offers:\n• Free Plan: Basic features with ads\n• PEP Plus ($4.99/month): Ad-free, advanced analytics\n• PEP Pro ($9.99/month): All features + coaching\n\nAll paid plans include a 7-day free trial.",
-          "keywords": ["pricing", "plans", "subscription", "cost"]
+          "question": "Is there a lifetime access or one-time purchase option?",
+          "answer": "Currently, we do not offer a lifetime access or one-time purchase option. We're focused on providing consistent updates and improvements through our subscription model to ensure the highest quality service and features.\n\nWe are evaluating the possibility of introducing a lifetime access option in the future, but it's not a priority in our current development roadmap.",
+          "keywords": ["lifetime", "one-time purchase", "permanent access", "buy once"]
         },
         {
           "id": "cancel-subscription",
           "order": 2,
-          "question": "How do I cancel my subscription?",
-          "answer": "To cancel:\n1. Open Settings on your iPhone\n2. Tap your Apple ID\n3. Tap Subscriptions\n4. Select PEP\n5. Tap Cancel Subscription\n\nYou'll keep access until the end of your billing period.",
-          "keywords": ["cancel", "unsubscribe", "stop payment"]
+          "question": "How can I cancel my subscription?",
+          "answer": "To cancel your subscription, follow these steps:\n\n1. **Open the Settings app:** Locate and open the Settings app on your iPhone or iPad.\n2. **Tap your name:** At the top of the Settings app, tap your Apple ID or name.\n3. **Select Subscriptions:** Scroll down and tap on \"Subscriptions\".\n4. **Find the subscription:** Locate Peptide Log in your list of active subscriptions.\n5. **Tap the subscription:** Tap on Peptide Log subscription.\n6. **Cancel Subscription:** Tap \"Cancel Subscription\" at the bottom of the screen.\n7. **Confirm cancellation:** Tap \"Confirm\" to finalize the cancellation.\n\nYou will continue to have access to premium features until the end of your current billing period.",
+          "keywords": ["cancel", "subscription", "stop payments", "unsubscribe", "refund"]
         }
       ]
     },
@@ -89,19 +80,11 @@
       "color": "#5856D6",
       "questions": [
         {
-          "id": "data-privacy",
+          "id": "data-storage",
           "order": 1,
-          "question": "How is my data protected?",
-          "answer": "We take privacy seriously:\n• All data is encrypted in transit and at rest\n• We never sell your personal information\n• You can export or delete your data anytime\n• We comply with GDPR and CCPA regulations",
-          "keywords": ["privacy", "data protection", "security", "GDPR"]
-        },
-        {
-          "id": "reset-password",
-          "order": 2,
-          "question": "How do I reset my password?",
-          "answer": "To reset your password:\n1. Tap 'Forgot Password' on the login screen\n2. Enter your email address\n3. Check your email for a reset link\n4. Create a new strong password",
-          "keywords": ["password", "reset", "forgot", "login"],
-          "relatedQuestions": ["create-account"]
+          "question": "Is my health data stored anywhere besides my device?",
+          "answer": "No. Your privacy is our highest priority, especially when handling sensitive medical data. All of your peptide and health information remains exclusively on your device and is never transmitted to our servers or any third parties.\n\nIn the near future, we will introduce optional iCloud sync capability, allowing you to securely back up your data and synchronize across your devices. Even with this feature, only you will have access to your encrypted data through your personal Apple ID.\n\nFor more information about Apple's data security practices for health information, please visit: https://support.apple.com/en-us/102651",
+          "keywords": ["data storage", "privacy", "cloud", "backup", "security", "icloud"]
         }
       ]
     },
@@ -113,18 +96,27 @@
       "color": "#FF9500",
       "questions": [
         {
-          "id": "app-crashes",
+          "id": "placeholder-troubleshooting",
           "order": 1,
-          "question": "What do I do if the app keeps crashing?",
-          "answer": "Try these steps:\n1. Force quit and restart the app\n2. Check for app updates in the App Store\n3. Restart your iPhone\n4. Ensure you have enough storage space\n5. Reinstall the app if issues persist\n\nIf problems continue, contact support.",
-          "keywords": ["crash", "bug", "freeze", "not working"]
-        },
+          "question": "Placeholder question for Troubleshooting",
+          "answer": "This is a placeholder answer for the Troubleshooting section.",
+          "keywords": ["placeholder", "troubleshooting"]
+        }
+      ]
+    },
+    {
+      "id": "feedback",
+      "order": 6,
+      "title": "Feedback & Support",
+      "icon": "questionmark.circle.fill",
+      "color": "#5AC8FA",
+      "questions": [
         {
-          "id": "sync-issues",
-          "order": 2,
-          "question": "My data isn't syncing properly",
-          "answer": "To fix sync issues:\n1. Check your internet connection\n2. Sign out and sign back in\n3. Enable Background App Refresh\n4. Update to the latest app version\n5. Check if our servers are operational",
-          "keywords": ["sync", "data", "cloud", "not updating"]
+          "id": "unanswered-questions",
+          "order": 1,
+          "question": "What if my question isn't answered here?",
+          "answer": "If you have a question that isn't addressed in our FAQ, please send us a feature request or support inquiry through the app. Our team is committed to responding to all inquiries within two business days.\n\nYour feedback helps us improve the app and expand our knowledge base with information that matters to our users.",
+          "keywords": ["support", "help", "contact", "questions", "feedback", "feature request"]
         }
       ]
     }
