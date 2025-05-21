@@ -1,6 +1,6 @@
 {
   "version": "1.1.0",
-  "lastUpdated": "2025-05-19T14:32:00Z",
+  "lastUpdated": "2025-05-21T14:32:00Z",
   "supportEmail": "j.grundherr@pm.me",
   "topics": [
     {
@@ -14,7 +14,7 @@
           "id": "previous-injections",
           "order": 1,
           "question": "How do I add my previous injections history?",
-          "answer": "To add your previous injection history, we recommend using the CSV import feature available in the Settings menu. This is the most efficient way to import historical data.\n\nIf you don't have a CSV file of your previous records, you can also:\n1. Temporarily disable the inventory tracking feature\n2. Use the 'Log Now' button on the dashboard to manually add past injections\n3. Re-enable inventory tracking once you've completed logging your history",
+          "answer": "To add your previous injection history:\n\n1. Temporarily disable the inventory tracking feature\n2. Use the 'Log Now' button on the dashboard to manually add past injections\n3. Re-enable inventory tracking once you've completed logging your history",
           "keywords": ["previous injections", "history", "import", "csv", "log", "inventory"]
         }
       ]
@@ -30,22 +30,8 @@
           "id": "peptide-blending",
           "order": 1,
           "question": "Does the app support peptide blending?",
-          "answer": "Currently, peptide blending is not available in the app. However, this feature is actively under development and will be included in a future update. Our team is working to implement this functionality in a way that ensures accuracy and ease of use.",
+          "answer": "Currently, peptide blending is not available in the app. However, this feature is actively under development and will be included in the near future, with a planned release in June 2025. Our team is working to implement this functionality in a way that ensures accuracy and ease of use.",
           "keywords": ["blending", "peptide blends", "mix", "combination", "future features"]
-        },
-        {
-          "id": "weight-data-missing",
-          "order": 2,
-          "question": "Why is my weight data missing or not displaying?",
-          "answer": "If your weight chart appears empty, you may need to grant Peptide Log access to your Apple Health data. Follow these steps to enable access:\n\n1. Open the Health app: Locate and open the Health app on your iPhone.\n2. Access your profile: Tap your profile picture (upper right corner on iPhone) or \"Profile\" (upper left corner on iPad).\n3. Navigate to Apps: Under the Privacy section, tap \"Apps\".\n4. Select the app: Find and select \"Peptide Log\" from the list of apps.\n5. Enable desired categories: Turn on access for weight data and any other health data categories you want the app to use.\n6. Check for other app permissions: Some features may also require additional permissions, which can be managed in the Settings app under Privacy & Security.",
-          "keywords": ["weight", "data", "missing", "empty chart", "apple health", "permissions"]
-        },
-        {
-          "id": "weight-data-incorrect",
-          "order": 3,
-          "question": "Why is my weight data incorrect or showing extreme values?",
-          "answer": "If your weight data shows implausible values (either too high or too low), the issue likely stems from incorrect entries in Apple Health. To resolve this:\n\n1. Open the Apple Health app\n2. Navigate to the Browse tab and select Weight\n3. Review your weight history for any obvious errors\n4. Remove or correct any inaccurate entries\n\nOnce corrected in Apple Health, the accurate data should synchronize with Peptide Log.",
-          "keywords": ["weight", "incorrect", "wrong", "inaccurate", "extreme values", "apple health"]
         }
       ]
     },
@@ -101,6 +87,20 @@
           "question": "Why is my plan not working correctly?",
           "answer": "Sometimes during app updates, active plans may experience issues. While we try to avoid this as much as possible, it can occasionally happen. If your plan is not functioning correctly, you'll need to:\n\n1. Go to the Plans section in the app\n2. Find the problematic plan and mark it as inactive\n3. Create a new plan with your desired settings\n\nThis will resolve most plan-related issues. If problems persist after creating a new plan, please contact support.",
           "keywords": ["plan", "not working", "broken", "update", "inactive", "recreate"]
+        },
+        {
+          "id": "weight-data-missing",
+          "order": 2,
+          "question": "Why is my weight data missing or not displaying?",
+          "answer": "If your weight chart appears empty, you may need to grant Peptide Log access to your Apple Health data. Follow these steps to enable access:\n\n1. Open the Health app: Locate and open the Health app on your iPhone.\n2. Access your profile: Tap your profile picture (upper right corner on iPhone) or \"Profile\" (upper left corner on iPad).\n3. Navigate to Apps: Under the Privacy section, tap \"Apps\".\n4. Select the app: Find and select \"Peptide Log\" from the list of apps.\n5. Enable desired categories: Turn on access for weight data and any other health data categories you want the app to use.\n6. Check for other app permissions: Some features may also require additional permissions, which can be managed in the Settings app under Privacy & Security.",
+          "keywords": ["weight", "data", "missing", "empty chart", "apple health", "permissions"]
+        },
+        {
+          "id": "weight-data-incorrect",
+          "order": 3,
+          "question": "Why is my weight data incorrect or showing extreme values?",
+          "answer": "If your weight data shows implausible values (either too high or too low), the issue likely stems from incorrect entries in Apple Health. To resolve this:\n\n1. Open the Apple Health app\n2. Navigate to the Browse tab and select Weight\n3. Review your weight history for any obvious errors\n4. Remove or correct any inaccurate entries\n\nOnce corrected in Apple Health, the accurate data should synchronize with Peptide Log.",
+          "keywords": ["weight", "incorrect", "wrong", "inaccurate", "extreme values", "apple health"]
         }
       ]
     },
