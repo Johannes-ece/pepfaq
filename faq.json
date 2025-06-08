@@ -108,6 +108,13 @@
           "question": "Why is my weight data incorrect or showing extreme values?",
           "answer": "If your weight data shows implausible values (either too high or too low), the issue likely stems from incorrect entries in Apple Health. To resolve this:\n\n1. Open the Apple Health app\n2. Navigate to the Browse tab and select Weight\n3. Review your weight history for any obvious errors\n4. Remove or correct any inaccurate entries\n\nOnce corrected in Apple Health, the accurate data should synchronize with Peptide Log.",
           "keywords": ["weight", "incorrect", "wrong", "inaccurate", "extreme values", "apple health"]
+        },
+        {
+          "id": "weight-statistics-discrepancy",
+          "order": 4,
+          "question": "Why do my weight loss statistics appear incorrect?",
+          "answer": "The statistics displayed in the statistics view are calculated based on the selected timeframe. If your weight loss numbers seem inaccurate (for example, showing 5.2 lbs lost when you've actually lost 11.5 lbs), check that you have selected the appropriate time period in the statistics view.\n\nTo view your complete weight loss progress, ensure you've selected a timeframe that covers your entire weight loss journey from start to current date.",
+          "keywords": ["weight statistics", "weight loss", "incorrect statistics", "timeframe", "statistics view", "discrepancy"]
         }
       ]
     },
