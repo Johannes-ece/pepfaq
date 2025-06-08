@@ -69,6 +69,13 @@
           "question": "How can I cancel my subscription?",
           "answer": "To cancel your subscription, follow these steps:\n\n1. **Open the Settings app:** Locate and open the Settings app on your iPhone or iPad.\n2. **Tap your name:** At the top of the Settings app, tap your Apple ID or name.\n3. **Select Subscriptions:** Scroll down and tap on \"Subscriptions\".\n4. **Find the subscription:** Locate Peptide Log in your list of active subscriptions.\n5. **Tap the subscription:** Tap on Peptide Log subscription.\n6. **Cancel Subscription:** Tap \"Cancel Subscription\" at the bottom of the screen.\n7. **Confirm cancellation:** Tap \"Confirm\" to finalize the cancellation.\n\nYou will continue to have access to premium features until the end of your current billing period.",
           "keywords": ["cancel", "subscription", "stop payments", "unsubscribe", "refund"]
+        },
+        {
+          "id": "free-trial-not-showing",
+          "order": 3,
+          "question": "This app isn't showing up under my subscriptions and therefore I can't cancel my free trial. How do I resolve this?",
+          "answer": "The free trial is not connected to any credit card or subscription account. The app simply grants full access for seven days to all tools. After the trial period, only the plotter and calculator remain available until you purchase an active subscription.\n\nSince the free trial doesn't involve any payment or subscription setup, you don't need to cancel anything. If you choose not to continue using the app after the trial ends, no action is required on your part.",
+          "keywords": ["free trial", "not showing", "subscriptions", "cancel trial", "no payment"]
         }
       ]
     },
