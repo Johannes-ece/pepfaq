@@ -4,8 +4,24 @@
   "supportEmail": "j.grundherr@pm.me",
   "topics": [
     {
-      "id": "getting-started",
+      "id": "known-bugs",
       "order": 1,
+      "title": "Known Bugs",
+      "icon": "exclamationmark.triangle.fill",
+      "color": "#FF9500",
+      "questions": [
+        {
+          "id": "plan-delete-crash",
+          "order": 1,
+          "question": "App crashes when deleting a plan",
+          "answer": "We're aware of an issue where the app crashes when attempting to delete a plan. This bug has already been fixed and will be resolved in the next update. We apologize for any inconvenience this may cause.",
+          "keywords": ["crash", "delete plan", "bug", "fixed", "update"]
+        }
+      ]
+    },
+    {
+      "id": "getting-started",
+      "order": 2,
       "title": "Getting Started",
       "icon": "star.circle.fill",
       "color": "#007AFF",
