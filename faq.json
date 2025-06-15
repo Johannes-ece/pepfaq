@@ -20,8 +20,24 @@
       ]
     },
     {
-      "id": "getting-started",
+      "id": "coming-soon",
       "order": 2,
+      "title": "Coming in Version 1.8",
+      "icon": "gift.fill",
+      "color": "#AF52DE",
+      "questions": [
+        {
+          "id": "version-1-8-features",
+          "order": 1,
+          "question": "What's new in Version 1.8?",
+          "answer": "Here's what's coming in Version 1.8:\n\n**New Features**:\n\n- **Peptide Database Browser** (Symbol: `globe`): Allows users to browse an external peptide database and quickly add peptides to their inventory with pre-filled data.\n- **Feature Voting & Suggestions** (Symbol: `sparkles`): Introduces a system where users can vote on upcoming features and submit their own ideas, helping to shape the future development of the application.\n- **Help Us With Blends** (Symbol: `questionmark.circle`): A call to action for users to share their ideas and suggestions for implementing peptide blends functionality, likely through the new Feature Voting tab.\n- **Skip Inventory Per Injection** (Symbol: `minus.circle`): Provides an optional toggle that allows users to log injections without tracking them against their inventory, useful for quick logging scenarios.\n- **Skip Planned Injections** (Symbol: `xmark.circle`): Enables users to skip missed planned injections, preventing them from reappearing as upcoming tasks.\n\n**Bug Fixes**:\n\n- **Fixed Plan Deletion Crash** (Symbol: `exclamationmark.triangle.fill`): Resolved an issue that caused the application to crash when users attempted to delete dosing plans.\n- **Calendar Stays Open After Logging** (Symbol: `calendar.badge.checkmark`): Corrected a behavior where the calendar detail view would close after logging an injection. Now, it remains open, making it easier to log multiple peptides consecutively.",
+          "keywords": ["version 1.8", "new features", "bug fixes", "update", "release notes", "peptide database", "feature voting", "blends", "skip inventory", "skip planned", "plan deletion", "calendar"]
+        }
+      ]
+    },
+    {
+      "id": "getting-started",
+      "order": 3,
       "title": "Getting Started",
       "icon": "star.circle.fill",
       "color": "#007AFF",
@@ -37,7 +53,7 @@
     },
     {
       "id": "features",
-      "order": 3,
+      "order": 4,
       "title": "Features & Usage",
       "icon": "sparkles",
       "color": "#34C759",
@@ -53,7 +69,7 @@
     },
     {
       "id": "subscription",
-      "order": 4,
+      "order": 5,
       "title": "Subscription & Billing",
       "icon": "creditcard.fill",
       "color": "#FF3B30",
@@ -83,7 +99,7 @@
     },
     {
       "id": "privacy-security",
-      "order": 5,
+      "order": 6,
       "title": "Privacy & Security",
       "icon": "lock.shield.fill",
       "color": "#5856D6",
@@ -99,7 +115,7 @@
     },
     {
       "id": "troubleshooting",
-      "order": 6,
+      "order": 7,
       "title": "Troubleshooting",
       "icon": "wrench.and.screwdriver.fill",
       "color": "#FF9500",
@@ -136,7 +152,7 @@
     },
     {
       "id": "feedback",
-      "order": 7,
+      "order": 8,
       "title": "Feedback & Support",
       "icon": "questionmark.circle.fill",
       "color": "#5AC8FA",
