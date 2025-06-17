@@ -15,7 +15,7 @@
           "order": 1,
           "question": "App crashes when deleting a plan",
           "answer": "We're aware of an issue where the app crashes when attempting to delete a plan. This bug has already been fixed and will be resolved in the next update. We apologize for any inconvenience this may cause.",
-          "keywords": ["crash", "delete plan", "bug", "fixed", "update"]
+          "keywords": ["crash", "delete plan", "bug", "update"]
         }
       ]
     },
